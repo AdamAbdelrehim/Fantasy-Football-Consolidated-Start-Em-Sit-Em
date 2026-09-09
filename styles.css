@@ -344,8 +344,12 @@ td:nth-child(8) {
         padding: 20px 4px;
     }
 
-    th,
-    td {
+    table {
+        min-width: 600px;
+    }
+
+    th, td {
+        width: auto;         
         padding: 6px 4px;
     }
 

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Consolidated Start 'Em, Sit 'Em</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="page-header">
+        <h1>Consolidated Start 'Em, Sit 'Em</h1>
+
+        <p>
+            A consolidated fantasy football start/sit tool that aggregates expert
+            recommendations to help simplify tough decisions. Compare players at
+            each position and quickly see who the consensus says to start, sit,
+            or consider for your lineup each week.
+        </p>
+    </header>
+
+    <div class="search-container">
+        <input
+            type="text"
+            id="player-search"
+            placeholder="Search players..."
+            autocomplete="off"
+        >
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th class="position-menu-cell">
+                    <button id="position-menu-button" class="position-menu-button">
+                        QB ▾
+                    </button>
+
+                    <div id="position-menu" class="position-menu">
+                        <button class="position-button active" data-position="QB">QB</button>
+                        <button class="position-button" data-position="RB">RB</button>
+                        <button class="position-button" data-position="WR">WR</button>
+                        <button class="position-button" data-position="TE">TE</button>
+                        <button class="position-button" data-position="K">K</button>
+                        <button class="position-button" data-position="DST">DST</button>
+                    </div>
+                </th>
+
+                <th>Consensus</th>
+                <th data-column="score">Score</th>
+                <th data-site="nfl">NFL</th>
+                <th data-site="si">Sports Illustrated</th>
+                <th data-site="cbs">CBS Sports</th>
+                <th data-site="sn">Sporting News</th>
+                <th data-site="br">Bleacher Report</th>
+            </tr>
+        </thead>
+
+        <tbody id="data-table">
+        </tbody>
+    </table>
+
+    <footer class="page-footer">
+        Sources: NFL, Sports Illustrated, CBS Sports, Sporting News, Bleacher Report
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,144 @@
+{
+    "links": [
+        {
+            "position": "QB",
+            "link": ""
+        },
+        {
+            "position": "RB",
+            "link": "https://www.cbssports.com/fantasy/football/news/fantasy-football-start-em-sit-em-rb-week-1-2026/"
+        },
+        {
+            "position": "WR",
+            "link": "https://www.cbssports.com/fantasy/football/news/fantasy-football-start-em-sit-em-wr-week-1-2026/"
+        },
+        {
+            "position": "TE",
+            "link": ""
+        },
+        {
+            "position": "DST",
+            "link": ""
+        },
+        {
+            "position": "K",
+            "link": ""
+        }
+    ],
+    "qb": [],
+    "rb": [
+        {
+            "name": "Rhamondre Stevenson",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Bucky Irving",
+            "recommendation": "Start"
+        },
+        {
+            "name": "David Montgomery",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Bhayshul Tuten",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Rico Dowdle",
+            "recommendation": "Sleeper"
+        },
+        {
+            "name": "Tony Pollard",
+            "recommendation": "Sleeper"
+        },
+        {
+            "name": "Jordan Mason",
+            "recommendation": "Sleeper"
+        },
+        {
+            "name": "Jadarian Price",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "MarShawn Lloyd",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "Jacory Croskey-Merritt",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "J.K. Dobbins",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "Jeremiyah Love",
+            "recommendation": "Bust Alert"
+        }
+    ],
+    "wr": [
+        {
+            "name": "Luther Burden III",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Parker Washington",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Jameson Williams",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Quentin Johnston",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Chris Godwin Jr.",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Josh Downs",
+            "recommendation": "Sleeper"
+        },
+        {
+            "name": "Jalen Coker",
+            "recommendation": "Sleeper"
+        },
+        {
+            "name": "Jordan Addison",
+            "recommendation": "Sleeper"
+        },
+        {
+            "name": "DK Metcalf",
+            "recommendation": "Sleeper"
+        },
+        {
+            "name": "Devaughn Vele",
+            "recommendation": "Sleeper"
+        },
+        {
+            "name": "Christian Watson",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "Marvin Harrison Jr.",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "Courtland Sutton",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "Carnell Tate",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "DJ Moore",
+            "recommendation": "Bust Alert"
+        }
+    ],
+    "te": [],
+    "dst": [],
+    "k": []
+}

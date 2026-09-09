@@ -336,25 +336,35 @@ td:nth-child(8) {
 }
 
 @media (max-width: 768px) {
-    .page-header {
-        text-align: center;
+    thead th {
+        position: sticky;
+        top: 0;
+        z-index: 10;
     }
 
-    .page-header h1,
-    .page-header p {
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
+    tbody td:first-child {
+        position: sticky;
+        left: 0;
+        z-index: 5;
     }
 
-    .search-container {
-        margin-left: auto;
-        margin-right: auto;
+    thead th:first-child {
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 20;
     }
 
-    .page-footer {
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
+    tbody td:first-child {
+        background-color: grey;
     }
+
+    thead th {
+        background-color: black;
+    }
+}
+
+.table-container {
+    width: 100%;
+    overflow: auto;
 }

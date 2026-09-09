@@ -94,7 +94,6 @@ table {
     border: 2px solid black;
     border-radius: 12px;
     overflow: hidden;
-    table-layout: fixed;
 }
 
 th,

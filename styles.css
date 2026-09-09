@@ -2,19 +2,11 @@ body {
     margin: 0;
     padding: 40px;
     background-color: rgb(22, 109, 160);
-    font-family: Arial, sans-serif;
+    font-family: 'IBM Plex Serif', serif;
     min-height: 100vh;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-}
-
-.table-layout {
-    display: flex;
-    align-items: flex-start;
-    gap: 0;
-    max-width: 1525px;
-    margin: 0 auto;
 }
 
 .position-menu-cell {
@@ -26,9 +18,9 @@ body {
     border: none;
     background: transparent;
     color: white;
-    font-family: inherit;
-    font-size: inherit;
-    font-weight: inherit;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 16px;
+    font-weight: bold;
     cursor: pointer;
     padding: 0;
 }
@@ -41,7 +33,6 @@ body {
     display: none;
     position: absolute;
     top: 100%;
-    left: 0;
     z-index: 1000;
     left: 50%;
     transform: translateX(-50%);
@@ -87,6 +78,7 @@ body {
 table {
     width: 100%;
     max-width: 1200px;
+    min-width: 800px;
     margin: 0 auto;
     border-collapse: separate;
     border-spacing: 0;
@@ -94,6 +86,14 @@ table {
     border: 2px solid black;
     border-radius: 12px;
     overflow: hidden;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
 }
 
 th,
@@ -193,8 +193,8 @@ tr:last-child td {
 .page-header h1 {
     margin: 0 0 10px;
     color: #ffffff;
-    font-size: 2.5rem;
-    font-weight: 800;
+    font-size: 2rem;
+    font-weight: bold;
     text-align: center;
 }
 
@@ -203,21 +203,11 @@ tr:last-child td {
     max-width: 900px;
     color: #ffffff;
     font-size: 1rem;
-    font-weight: 700;
     line-height: 1.5;
     text-align: center;
 }
 
 .page-footer {
-    margin: auto 0 0;
-    padding: 15px 20px;
-    color: #afa9a9;
-    font-size: 0.8rem;
-    font-weight: 400;
-    text-align: center;
-}
-
-.version {
     margin: auto 0 0;
     padding: 15px 20px;
     color: #afa9a9;
@@ -342,4 +332,18 @@ td:nth-child(8) {
 
 .score-negative-10 {
     background-color: #9f0f0f;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 20px 10px;
+    }
+
+    th {
+        font-size: 13px;
+    }
+
+    td {
+        font-size: 10px;
+    }
 }

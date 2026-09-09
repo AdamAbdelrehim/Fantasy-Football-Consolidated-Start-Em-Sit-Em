@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Consolidated Start 'Em, Sit 'Em</title>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -30,46 +32,49 @@
         >
     </div>
 
-    <table>
-        <thead>
-            <tr>
-                <th class="position-menu-cell">
-                    <button id="position-menu-button" class="position-menu-button">
-                        QB ▾
-                    </button>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th class="position-menu-cell">
+                        <button id="position-menu-button" class="position-menu-button">
+                            QB ▾
+                        </button>
 
-                    <div id="position-menu" class="position-menu">
-                        <button class="position-button active" data-position="QB">QB</button>
-                        <button class="position-button" data-position="RB">RB</button>
-                        <button class="position-button" data-position="WR">WR</button>
-                        <button class="position-button" data-position="TE">TE</button>
-                        <button class="position-button" data-position="K">K</button>
-                        <button class="position-button" data-position="DST">DST</button>
-                    </div>
-                </th>
+                        <div id="position-menu" class="position-menu">
+                            <button class="position-button active" data-position="QB">QB</button>
+                            <button class="position-button" data-position="RB">RB</button>
+                            <button class="position-button" data-position="WR">WR</button>
+                            <button class="position-button" data-position="TE">TE</button>
+                            <button class="position-button" data-position="K">K</button>
+                            <button class="position-button" data-position="DST">DST</button>
+                        </div>
+                    </th>
 
-                <th>Consensus</th>
-                <th data-column="score">Score</th>
-                <th data-site="nfl">NFL</th>
-                <th data-site="si">Sports Illustrated</th>
-                <th data-site="cbs">CBS Sports</th>
-                <th data-site="sn">Sporting News</th>
-                <th data-site="br">Bleacher Report</th>
-            </tr>
-        </thead>
+                    <th>Consensus</th>
+                    <th data-column="score">Score</th>
+                    <th data-site="nfl">NFL</th>
+                    <th data-site="si">Sports Illustrated</th>
+                    <th data-site="cbs">CBS Sports</th>
+                    <th data-site="sn">Sporting News</th>
+                    <th data-site="br">Bleacher Report</th>
+                </tr>
+            </thead>
 
-        <tbody id="data-table">
-        </tbody>
-    </table>
+            <tbody id="data-table">
+            </tbody>
+        </table>
+    </div>
 
     <footer class="page-footer">
-        Sources: NFL, Sports Illustrated, CBS Sports, Sporting News, Bleacher Report
+        <div>
+            Sources: NFL, Sports Illustrated, CBS Sports, Sporting News, Bleacher Report
+        </div>
+        <div>
+            Version 1.0.4
+        </div>
     </footer>
 
-    <footer class="version">
-        Version 1.0.3
-    </footer>
-    
     <script src="script.js"></script>
 </body>
 </html>

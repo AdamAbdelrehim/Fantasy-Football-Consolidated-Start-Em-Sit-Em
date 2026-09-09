@@ -219,6 +219,15 @@ tr:last-child td {
     text-align: center;
 }
 
+.version {
+    margin: auto 0 0;
+    padding: 15px 20px;
+    color: #afa9a9;
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-align: center;
+}
+
 th.clickable {
     cursor: pointer;
 }

@@ -335,36 +335,26 @@ td:nth-child(8) {
     background-color: #9f0f0f;
 }
 
-@media (max-width: 768px) {
-    thead th {
-        position: sticky;
-        top: 0;
-        z-index: 10;
+@media (max-width: 600px) {
+    th,
+    td {
+        font-size: 10px;
+        padding: 10px 6px;
     }
 
-    tbody td:first-child {
-        position: sticky;
-        left: 0;
-        z-index: 5;
+    th {
+        font-size: 11px;
     }
 
-    thead th:first-child {
-        position: sticky;
-        top: 0;
-        left: 0;
-        z-index: 20;
+    .player {
+        font-size: 10px;
     }
 
-    tbody td:first-child {
-        background-color: grey;
+    .position-menu-button {
+        font-size: 11px;
     }
 
-    thead th {
-        background-color: black;
+    .position-button {
+        font-size: 13px;
     }
-}
-
-.table-container {
-    width: 100%;
-    overflow: auto;
 }

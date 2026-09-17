@@ -39,19 +39,19 @@ const positionButtons = document.querySelectorAll(".position-button");
 async function loadAllData() {
     try {
         const [nfl, si, cbs, sn, br] = await Promise.all([
-            fetch("data/week-2/nfl-week-2.json")
+            fetch("data/week-2/nfl-week-2.json?v=" + Date.now())
                 .then(response => response.json()),
 
-            fetch("data/week-2/si-week-2.json")
+            fetch("data/week-2/si-week-2.json?v=" + Date.now())
                 .then(response => response.json()),
 
-            fetch("data/week-2/cbs-week-2.json")
+            fetch("data/week-2/cbs-week-2.json?v=" + Date.now())
                 .then(response => response.json()),
 
-            fetch("data/week-2/sn-week-2.json")
+            fetch("data/week-2/sn-week-2.json?v=" + Date.now())
                 .then(response => response.json()),
 
-            fetch("data/week-2/br-week-2.json")
+            fetch("data/week-2/br-week-2.json?v=" + Date.now())
                 .then(response => response.json())
         ]);
 

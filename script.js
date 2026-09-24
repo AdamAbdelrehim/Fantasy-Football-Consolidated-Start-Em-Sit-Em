@@ -31,7 +31,7 @@ let scoreAscending = false;
 const tableBody = document.getElementById("data-table");
 const scoreHeader = document.querySelector("th[data-column='score']");
 const playerSearch = document.getElementById("player-search");
-
+const exportCsvButton = document.getElementById("export-csv-button");
 const positionMenuButton = document.getElementById("position-menu-button");
 const positionMenu = document.getElementById("position-menu");
 const positionButtons = document.querySelectorAll(".position-button");
@@ -39,28 +39,24 @@ const positionButtons = document.querySelectorAll(".position-button");
 async function loadAllData() {
     try {
         const [nfl, si, cbs, sn, br] = await Promise.all([
-            fetch("data/week-2/nfl-week-2.json?v=" + Date.now())
+            fetch("data/week-3/nfl-week-3.json?v=" + Date.now())
                 .then(response => response.json()),
 
-            fetch("data/week-2/si-week-2.json?v=" + Date.now())
+            fetch("data/week-3/si-week-3.json?v=" + Date.now())
                 .then(response => response.json()),
 
-            fetch("data/week-2/cbs-week-2.json?v=" + Date.now())
+            fetch("data/week-3/cbs-week-3.json?v=" + Date.now())
                 .then(response => response.json()),
 
-            fetch("data/week-2/sn-week-2.json?v=" + Date.now())
+            fetch("data/week-3/sn-week-3.json?v=" + Date.now())
                 .then(response => response.json()),
-
-            fetch("data/week-2/br-week-2.json?v=" + Date.now())
-                .then(response => response.json())
         ]);
 
         const data = {
             nfl,
             si,
             cbs,
-            sn,
-            br
+            sn
         };
 
         siteLinks = {};
@@ -167,10 +163,6 @@ function renderTable() {
 
             <td class="${getRecommendationClass(player.sn)}">
                 ${player.sn ?? ""}
-            </td>
-
-            <td class="${getRecommendationClass(player.br)}">
-                ${player.br ?? ""}
             </td>
         `;
 
@@ -292,7 +284,6 @@ function calculateConsensus(player) {
         player.si,
         player.cbs,
         player.sn,
-        player.br
     ].filter(value => value !== null && value !== "");
 
     if (recommendations.length === 0) {
@@ -379,7 +370,53 @@ function getScoreClass(score) {
     return `score-negative-${level}`;
 }
 
+function exportTableToCSV() {
+    const table = document.querySelector("table");
+    const rows = table.querySelectorAll("tr");
+
+    const csv = [];
+
+    rows.forEach(row => {
+        const cells = row.querySelectorAll("th, td");
+
+        const rowData = Array.from(cells).map(cell => {
+            let text = cell.textContent.trim();
+
+            // Remove the dropdown arrow from the position header
+            if (cell.querySelector("#position-menu-button")) {
+                text = selectedPosition;
+            }
+
+            // Escape quotes for CSV
+            text = text.replace(/"/g, '""');
+
+            return `"${text}"`;
+        });
+
+        csv.push(rowData.join(","));
+    });
+
+    const csvContent = csv.join("\r\n");
+
+    const blob = new Blob([csvContent], {
+        type: "text/csv;charset=utf-8;"
+    });
+
+    const url = URL.createObjectURL(blob);
+
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = `week-3-${selectedPosition.toLowerCase()}.csv`;
+
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+
+    URL.revokeObjectURL(url);
+}
+
 setupPositionMenu();
 setupScoreSorting();
 setupPlayerSearch();
+exportCsvButton.addEventListener("click", exportTableToCSV);
 loadAllData();

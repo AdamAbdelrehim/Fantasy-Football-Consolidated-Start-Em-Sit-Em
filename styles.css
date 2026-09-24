@@ -223,6 +223,7 @@ tr:last-child td {
 
 th.clickable {
     cursor: pointer;
+    user-select: none;
 }
 
 th.clickable:hover {
@@ -337,6 +338,16 @@ td:nth-child(8) {
 
 .score-negative-10 {
     background-color: #9f0f0f;
+}
+
+#export-csv-button {
+    align-self: center;
+    margin-top: 15px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    white-space: nowrap;
 }
 
 @media (max-width: 600px) {

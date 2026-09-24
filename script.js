@@ -38,7 +38,7 @@ const positionButtons = document.querySelectorAll(".position-button");
 
 async function loadAllData() {
     try {
-        const [nfl, si, cbs, sn, br] = await Promise.all([
+        const [nfl, si, cbs, sn] = await Promise.all([
             fetch("data/week-3/nfl-week-3.json?v=" + Date.now())
                 .then(response => response.json()),
 
@@ -91,7 +91,6 @@ async function loadAllData() {
                             si: null,
                             cbs: null,
                             sn: null,
-                            br: null,
                             totalScore: 0
                         };
                     }
@@ -371,30 +370,64 @@ function getScoreClass(score) {
 }
 
 function exportTableToCSV() {
-    const table = document.querySelector("table");
-    const rows = table.querySelectorAll("tr");
-
+    const positions = ["QB", "RB", "WR", "TE", "K", "DST"];
     const csv = [];
 
-    rows.forEach(row => {
-        const cells = row.querySelectorAll("th, td");
+    for (const position of positions) {
+        // Position header
+        csv.push([
+            `"${position}"`,
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ].join(","));
 
-        const rowData = Array.from(cells).map(cell => {
-            let text = cell.textContent.trim();
+        // Column headers
+        csv.push([
+            "Player",
+            "Consensus",
+            "Score",
+            "NFL",
+            "Sports Illustrated",
+            "CBS Sports",
+            "Sporting News"
+        ].map(value => `"${value}"`).join(","));
 
-            // Remove the dropdown arrow from the position header
-            if (cell.querySelector("#position-menu-button")) {
-                text = selectedPosition;
-            }
+        // Get players for this position
+        const positionPlayers = Object.values(players)
+            .filter(player =>
+                player.position.toUpperCase() === position
+            )
+            .sort((a, b) => b.totalScore - a.totalScore);
 
-            // Escape quotes for CSV
-            text = text.replace(/"/g, '""');
+        for (const player of positionPlayers) {
+            const consensus = calculateConsensus(player);
 
-            return `"${text}"`;
-        });
+            const rowData = [
+                player.name,
+                consensus,
+                player.totalScore,
+                player.nfl ?? "",
+                player.si ?? "",
+                player.cbs ?? "",
+                player.sn ?? ""
+            ];
 
-        csv.push(rowData.join(","));
-    });
+            const escapedRow = rowData.map(value => {
+                let text = String(value);
+                text = text.replace(/"/g, '""');
+                return `"${text}"`;
+            });
+
+            csv.push(escapedRow.join(","));
+        }
+
+        // Blank row between positions
+        csv.push("");
+    }
 
     const csvContent = csv.join("\r\n");
 
@@ -406,7 +439,7 @@ function exportTableToCSV() {
 
     const link = document.createElement("a");
     link.href = url;
-    link.download = `week-3-${selectedPosition.toLowerCase()}.csv`;
+    link.download = "week-3-start-em-sit-em.csv";
 
     document.body.appendChild(link);
     link.click();

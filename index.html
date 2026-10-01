@@ -7,11 +7,48 @@
     <title>Consolidated Start 'Em, Sit 'Em</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css?v=03">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=04">
 </head>
 
 <body>
+
+    <button id="week-menu-button" class="week-menu-button" aria-label="Open week menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <div id="week-overlay" class="week-overlay"></div>
+
+    <aside id="week-sidebar" class="week-sidebar">
+        <div class="week-sidebar-header">
+            <h2>Select Week</h2>
+
+            <button id="week-close-button" class="week-close-button">
+                &times;
+            </button>
+        </div>
+
+        <div class="week-list">
+            <button class="week-button" data-week="1">
+                Week 1
+            </button>
+
+            <button class="week-button" data-week="2">
+                Week 2
+            </button>
+
+            <button class="week-button active" data-week="3">
+                Week 3
+            </button>
+
+            <button class="week-button" data-week="4">
+                Week 4
+            </button>
+        </div>
+    </aside>
+
     <header class="page-header">
         <h1>Consolidated Start 'Em, Sit 'Em</h1>
 
@@ -44,7 +81,7 @@
         <table>
             <thead>
                 <tr class="table-title-row">
-                    <th colspan="7">Week 3 Start 'Em, Sit 'Em</th>
+                    <th colspan="7" id="table-week-title"></th>
                 </tr>
                 <tr>
                     <th class="position-menu-cell">
@@ -76,19 +113,21 @@
         </table>
     </div>
 
-    <button id="export-csv-button">
-        Export CSV
-    </button>
+    <div class="export-buttons">
+        <button id="export-csv-button">
+            Export CSV
+        </button>
+    </div>
 
     <footer class="page-footer">
         <div>
             Sources: NFL, Sports Illustrated, CBS Sports, Sporting News
         </div>
         <div>
-            Version 1.0.11
+            Version 1.0.12
         </div>
     </footer>
 
-    <script src="script.js?v=03"></script>
+    <script src="script.js?v=04"></script>
 </body>
 </html>

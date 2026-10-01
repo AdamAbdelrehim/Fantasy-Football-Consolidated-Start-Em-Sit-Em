@@ -1,0 +1,264 @@
+{
+    "links": [
+        {
+            "position": "QB",
+            "link": "https://www.nfl.com/news/nfl-fantasy-2026-start-em-sit-em-quarterbacks-for-week-4"
+        },
+        {
+            "position": "RB",
+            "link": "https://www.nfl.com/news/nfl-fantasy-2026-start-em-sit-em-running-backs-for-week-4"
+        },
+        {
+            "position": "WR",
+            "link": "https://www.nfl.com/news/nfl-fantasy-2026-start-em-sit-em-wide-receivers-for-week-4"
+        },
+        {
+            "position": "TE",
+            "link": "https://www.nfl.com/news/nfl-fantasy-2026-start-em-sit-em-tight-ends-for-week-4"
+        },
+        {
+            "position": "DST",
+            "link": "https://www.nfl.com/news/nfl-fantasy-2026-start-em-sit-em-defenses-for-week-4"
+        },
+        {
+            "position": "K",
+            "link": "https://www.nfl.com/news/nfl-fantasy-2026-start-em-sit-em-kickers-in-week-4"
+        }
+    ],
+    "qb": [
+        {
+            "name": "Tyler Shough",
+            "recommendation": "Start of the Week"
+        },
+        {
+            "name": "Bryce Young",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Brock Purdy",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Matthew Stafford",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Daniel Jones",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Justin Herbert",
+            "recommendation": "Sit of the Week"
+        },
+        {
+            "name": "Drake Maye",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "Dak Prescott",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "Jordan Love",
+            "recommendation": "Sit"
+        }
+    ],
+    "rb": [
+        {
+            "name": "Bhayshul Tuten",
+            "recommendation": "Start of the Week"
+        },
+        {
+            "name": "Cam Skattebo",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Chuba Hubbard",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Bucky Irving",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Aaron Jones Sr.",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Omarion Hampton",
+            "recommendation": "Sit of the Week"
+        },
+        {
+            "name": "Quinshon Judkins",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "Jadarian Price",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "Tony Pollard",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "J.K. Dobbins",
+            "recommendation": "Sit"
+        }
+    ],
+    "wr": [
+        {
+            "name": "Josh Downs",
+            "recommendation": "Start of the Week"
+        },
+        {
+            "name": "Zay Flowers",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Tetairoa McMillan",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Michael Wilson",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Keenan Allen",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Jameson Williams",
+            "recommendation": "Sit of the Week"
+        },
+        {
+            "name": "Ladd McConkey",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "Jaylen Waddle",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "Emeka Egbuka",
+            "recommendation": "Sit"
+        }
+    ],
+    "te": [
+        {
+            "name": "Travis Kelce",
+            "recommendation": "Start of the Week"
+        },
+        {
+            "name": "Juwan Johnson",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Dalton Schultz",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Isaiah Likely",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Kyle Pitts Sr.",
+            "recommendation": "Sit of the Week"
+        },
+        {
+            "name": "Mark Andrews",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "Jake Ferguson",
+            "recommendation": "Sit"
+        }
+    ],
+    "dst": [
+        {
+            "name": "Vikings",
+            "recommendation": "Start of the Week"
+        },
+        {
+            "name": "Bills",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Steelers",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Browns",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Eagles",
+            "recommendation": "Sit of the Week"
+        },
+        {
+            "name": "Broncos",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "Patriots",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "Panthers",
+            "recommendation": "Sit"
+        }
+    ],
+    "k": [
+        {
+            "name": "Evan McPherson",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Chase McLaughlin",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Spencer Shrader",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Will Reichard",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Ryan Fitzgerald",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Tyler Loop",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Brandon Aubrey",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Joey Slye",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "Wil Lutz",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "Jake Elliott",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "Andre Szmyt",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "Riley Patterson",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "Dominic Zvada",
+            "recommendation": "Sit"
+        }
+    ]
+}

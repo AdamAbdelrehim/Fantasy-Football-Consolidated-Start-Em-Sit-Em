@@ -1,0 +1,579 @@
+{
+    "links": [
+        {
+            "position": "QB",
+            "link": "https://www.sportingnews.com/us/fantasy/news/fantasy-football-start-em-sit-em-week-4/5d0165e437bec5720c07f7b4"
+        },
+        {
+            "position": "RB",
+            "link": "https://www.sportingnews.com/us/fantasy/news/fantasy-football-start-em-sit-em-week-4/5d0165e437bec5720c07f7b4"
+        },
+        {
+            "position": "WR",
+            "link": "https://www.sportingnews.com/us/fantasy/news/fantasy-football-start-em-sit-em-week-4/5d0165e437bec5720c07f7b4"
+        },
+        {
+            "position": "TE",
+            "link": "https://www.sportingnews.com/us/fantasy/news/fantasy-football-start-em-sit-em-week-4/5d0165e437bec5720c07f7b4"
+        },
+        {
+            "position": "DST",
+            "link": "https://www.sportingnews.com/us/fantasy/news/fantasy-football-start-em-sit-em-week-4/5d0165e437bec5720c07f7b4"
+        },
+        {
+            "position": "K",
+            "link": "https://www.sportingnews.com/us/fantasy/news/fantasy-football-start-em-sit-em-week-4/5d0165e437bec5720c07f7b4"
+        }
+    ],
+    "qb": [
+        {
+            "name": "Josh Allen",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Lamar Jackson",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Patrick Mahomes",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Jalen Hurts",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Brock Purdy",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Trevor Lawrence",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Joe Burrow",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Jared Goff",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Tyler Shough",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Matthew Stafford",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Dak Prescott",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Kyler Murray",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Jordan Love",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Bryce Young",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Drake Maye",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "Bo Nix",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "Kirk Cousins",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "Geno Smith",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "C.J. Stroud",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "Jacoby Brissett",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "Daniel Jones",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "Justin Herbert",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "Sam Darnold",
+            "recommendation": "Sit"
+        }
+    ],
+    "rb": [
+        {
+            "name": "Jahmyr Gibbs",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Bijan Robinson",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Derrick Henry",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Christian McCaffrey",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Kenneth Walker III",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "James Cook",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Ashton Jeanty",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Saquon Barkley",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Jonathan Taylor",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Kyren Williams",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Jeremiyah Love",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Bhayshul Tuten",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Cam Skattebo",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Jaylen Warren",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Chase Brown",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Javonte Williams",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "D'Andre Swift",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Chuba Hubbard",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Bucky Irving",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "David Montgomery",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Omarion Hampton",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Kyle Monangai",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Braelon Allen",
+            "recommendation": "Start"
+        },
+        {
+            "name": "TreVeyon Henderson",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Jacory Croskey-Merritt",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Rhamondre Stevenson",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Jadarian Price",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Kendre Miller",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Quinshon Judkins",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "Rachaad White",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "J.K. Dobbins",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "Ollie Gordon II",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "Tony Pollard",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "MarShawn Lloyd",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "Tyler Allgeier",
+            "recommendation": "Sit"
+        }
+    ],
+    "wr": [
+        {
+            "name": "Jaxon Smith-Njigba",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Ja'Marr Chase",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Amon-Ra St. Brown",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "CeeDee Lamb",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Chris Olave",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Justin Jefferson",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Davante Adams",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Drake London",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "DeVonta Smith",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Christian Watson",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Zay Flowers",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Garrett Wilson",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Parker Washington",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Tee Higgins",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Tetairoa McMillan",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "George Pickens",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Rashee Rice",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Jaylen Waddle",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Malik Nabers",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "D.J. Moore",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Emeka Egbuka",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Matthew Golden",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Ladd McConkey",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Terry McLaurin",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Jameson Williams",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Michael Wilson",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Chris Godwin",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Josh Downs",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Stefon Diggs",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Luther Burden III",
+            "recommendation": "Start"
+        },
+        {
+            "name": "DK Metcalf",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Jordan Addison",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Deebo Samuel",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Devaughn Vele",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Denzel Boston",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Jalen Coker",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "Romeo Doubs",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "Courtland Sutton",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "Jakobi Meyers",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "Rome Odunze",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "Carnell Tate",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "Dontayvion Wicks",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "Keenan Allen",
+            "recommendation": "Sit"
+        }
+    ],
+    "te": [
+        {
+            "name": "Tyler Warren",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Travis Kelce",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "George Kittle",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Trey McBride",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Juwan Johnson",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Tucker Kraft",
+            "recommendation": "(Must Start)"
+        },
+        {
+            "name": "Dalton Schultz",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Sam LaPorta",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Harold Fannin Jr.",
+            "recommendation": "Start"
+        },
+        {
+            "name": "T.J. Hockenson",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Dalton Kincaid",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Isaiah Likely",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Kenyon Sadiq",
+            "recommendation": "Start"
+        },
+        {
+            "name": "Jake Ferguson",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "Mark Andrews",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "Colston Loveland",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "A.J. Barner",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "Darren Waller",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "Kyle Pitts Sr.",
+            "recommendation": "Sit"
+        },
+        {
+            "name": "Pat Freiermuth",
+            "recommendation": "Sit"
+        }
+    ],
+    "dst": [
+        {
+            "name": "Vikings",
+            "recommendation": "(Start)"
+        },
+        {
+            "name": "Seahawks",
+            "recommendation": "(Start)"
+        },
+        {
+            "name": "Ravens",
+            "recommendation": "(Start)"
+        },
+        {
+            "name": "Packers",
+            "recommendation": "(Start)"
+        },
+        {
+            "name": "Bills",
+            "recommendation": "(Start)"
+        },
+        {
+            "name": "Eagles",
+            "recommendation": "(Start)"
+        },
+        {
+            "name": "Saints",
+            "recommendation": "(Start)"
+        },
+        {
+            "name": "Browns",
+            "recommendation": "(Start)"
+        },
+        {
+            "name": "Steelers",
+            "recommendation": "(Start)"
+        },
+        {
+            "name": "Chiefs",
+            "recommendation": "(Start)"
+        },
+        {
+            "name": "Cardinals",
+            "recommendation": "(Start)"
+        },
+        {
+            "name": "Rams",
+            "recommendation": "(Start)"
+        },
+        {
+            "name": "Cowboys",
+            "recommendation": "(Start)"
+        },
+        {
+            "name": "Texans",
+            "recommendation": "(Start)"
+        }
+    ],
+    "k": []
+}

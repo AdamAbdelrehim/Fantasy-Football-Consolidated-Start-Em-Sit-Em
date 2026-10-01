@@ -27,6 +27,7 @@ let players = {};
 let siteLinks = {};
 let selectedPosition = "QB";
 let scoreAscending = false;
+let selectedWeek = 4;
 
 const tableBody = document.getElementById("data-table");
 const scoreHeader = document.querySelector("th[data-column='score']");
@@ -35,21 +36,27 @@ const exportCsvButton = document.getElementById("export-csv-button");
 const positionMenuButton = document.getElementById("position-menu-button");
 const positionMenu = document.getElementById("position-menu");
 const positionButtons = document.querySelectorAll(".position-button");
+const weekMenuButton = document.getElementById("week-menu-button");
+const weekSidebar = document.getElementById("week-sidebar");
+const weekCloseButton = document.getElementById("week-close-button");
+const weekOverlay = document.getElementById("week-overlay");
+const weekButtons = document.querySelectorAll(".week-button");
+const tableWeekTitle = document.getElementById("table-week-title");
 
 async function loadAllData() {
     try {
         const [nfl, si, cbs, sn] = await Promise.all([
-            fetch("data/week-3/nfl-week-3.json?v=" + Date.now())
+            fetch(`data/week-${selectedWeek}/nfl-week-${selectedWeek}.json?v=${Date.now()}`)
                 .then(response => response.json()),
 
-            fetch("data/week-3/si-week-3.json?v=" + Date.now())
+            fetch(`data/week-${selectedWeek}/si-week-${selectedWeek}.json?v=${Date.now()}`)
                 .then(response => response.json()),
 
-            fetch("data/week-3/cbs-week-3.json?v=" + Date.now())
+            fetch(`data/week-${selectedWeek}/cbs-week-${selectedWeek}.json?v=${Date.now()}`)
                 .then(response => response.json()),
 
-            fetch("data/week-3/sn-week-3.json?v=" + Date.now())
-                .then(response => response.json()),
+            fetch(`data/week-${selectedWeek}/sn-week-${selectedWeek}.json?v=${Date.now()}`)
+                .then(response => response.json())
         ]);
 
         const data = {
@@ -111,6 +118,9 @@ async function loadAllData() {
             </tr>
         `;
     }
+
+    updateWeekTitle();
+    renderTable();
 }
 
 function renderTable() {
@@ -374,7 +384,6 @@ function exportTableToCSV() {
     const csv = [];
 
     for (const position of positions) {
-        // Position header
         csv.push([
             `"${position}"`,
             "",
@@ -385,7 +394,6 @@ function exportTableToCSV() {
             ""
         ].join(","));
 
-        // Column headers
         csv.push([
             "Player",
             "Consensus",
@@ -396,7 +404,6 @@ function exportTableToCSV() {
             "Sporting News"
         ].map(value => `"${value}"`).join(","));
 
-        // Get players for this position
         const positionPlayers = Object.values(players)
             .filter(player =>
                 player.position.toUpperCase() === position
@@ -425,7 +432,6 @@ function exportTableToCSV() {
             csv.push(escapedRow.join(","));
         }
 
-        // Blank row between positions
         csv.push("");
     }
 
@@ -439,7 +445,7 @@ function exportTableToCSV() {
 
     const link = document.createElement("a");
     link.href = url;
-    link.download = "week-3-start-em-sit-em.csv";
+    link.download = `week-${selectedWeek}-start-em-sit-em.csv`;
 
     document.body.appendChild(link);
     link.click();
@@ -448,7 +454,58 @@ function exportTableToCSV() {
     URL.revokeObjectURL(url);
 }
 
+function setupWeekMenu() {
+
+    function openWeekMenu() {
+        weekSidebar.classList.add("open");
+        weekOverlay.classList.add("open");
+    }
+
+    function closeWeekMenu() {
+        weekSidebar.classList.remove("open");
+        weekOverlay.classList.remove("open");
+    }
+
+    weekMenuButton.addEventListener("click", openWeekMenu);
+    weekCloseButton.addEventListener("click", closeWeekMenu);
+    weekOverlay.addEventListener("click", closeWeekMenu);
+    weekButtons.forEach(button => {
+
+        button.addEventListener("click", async () => {
+
+            selectedWeek = Number(button.dataset.week);
+
+            weekButtons.forEach(btn => {
+                btn.classList.remove("active");
+            });
+
+            button.classList.add("active");
+
+            updateWeekTitle();
+
+            closeWeekMenu();
+
+            tableBody.innerHTML = `
+                <tr>
+                    <td colspan="7">
+                        Loading Week ${selectedWeek}...
+                    </td>
+                </tr>
+            `;
+
+            await loadAllData();
+        });
+
+    });
+}
+
+function updateWeekTitle() {
+    tableWeekTitle.textContent =
+        `Week ${selectedWeek} Start 'Em, Sit 'Em`;
+}
+
 setupPositionMenu();
+setupWeekMenu();
 setupScoreSorting();
 setupPlayerSearch();
 exportCsvButton.addEventListener("click", exportTableToCSV);

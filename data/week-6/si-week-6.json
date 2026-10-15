@@ -1,0 +1,143 @@
+{
+    "links": [
+        {
+            "position": "QB",
+            "link": "https://www.si.com/fantasy/week-6-start-em-sit-em-quarterbacks"
+        },
+        {
+            "position": "RB",
+            "link": "https://www.si.com/fantasy/week-6-start-em-sit-em-running-backs"
+        },
+        {
+            "position": "WR",
+            "link": "https://www.si.com/fantasy/week-6-start-em-sit-em-wide-receivers"
+        },
+        {
+            "position": "TE",
+            "link": "https://www.si.com/fantasy/week-6-start-em-sit-em-tight-ends"
+        },
+        {
+            "position": "DST",
+            "link": "https://www.si.com/fantasy/week-6-start-em-sit-em-team-defenses-kickers"
+        },
+        {
+            "position": "K",
+            "link": "https://www.si.com/fantasy/week-6-start-em-sit-em-team-defenses-kickers"
+        }
+    ],
+    "qb": [
+        { "name": "Brock Purdy", "recommendation": "Start of the Week" },
+        { "name": "Matthew Stafford", "recommendation": "Start" },
+        { "name": "Dak Prescott", "recommendation": "Start" },
+        { "name": "Jordan Love", "recommendation": "Start" },
+        { "name": "Tyler Shough", "recommendation": "Start" },
+        { "name": "Patrick Mahomes", "recommendation": "(Start)" },
+        { "name": "Bryce Young", "recommendation": "(Start)" },
+        { "name": "Caleb Williams", "recommendation": "(Start)" },
+        { "name": "Kirk Cousins", "recommendation": "Stream" },
+        { "name": "C.J. Stroud", "recommendation": "Stream" },
+        { "name": "Jameis Winston", "recommendation": "Stream" },
+        { "name": "Bo Nix", "recommendation": "Sit of the Week" },
+        { "name": "Justin Herbert", "recommendation": "Sit" },
+        { "name": "Jacoby Brissett", "recommendation": "Sit" },
+        { "name": "Daniel Jones", "recommendation": "Sit" },
+        { "name": "Deshaun Watson", "recommendation": "Sit" },
+        { "name": "Sam Darnold", "recommendation": "(Sit)" },
+        { "name": "Geno Smith", "recommendation": "(Sit)" }
+    ],
+    "rb": [
+        { "name": "Javonte Williams", "recommendation": "Start of the Week" },
+        { "name": "Jaylen Warren", "recommendation": "Start" },
+        { "name": "Chuba Hubbard", "recommendation": "Start" },
+        { "name": "Rhamondre Stevenson", "recommendation": "Start" },
+        { "name": "Emanuel Wilson", "recommendation": "Start" },
+        { "name": "D'Andre Swift", "recommendation": "(Start)" },
+        { "name": "Braelon Allen", "recommendation": "(Start)" },
+        { "name": "Cam Skattebo", "recommendation": "(Start)" },
+        { "name": "Jacory Croskey-Merritt", "recommendation": "Stream" },
+        { "name": "MarShawn Lloyd", "recommendation": "Stream" },
+        { "name": "Woody Marks", "recommendation": "Stream" },
+        { "name": "Bucky Irving", "recommendation": "Sit of the Week" },
+        { "name": "Jeremiyah Love", "recommendation": "Sit" },
+        { "name": "Omarion Hampton", "recommendation": "Sit" },
+        { "name": "Bhayshul Tuten", "recommendation": "Sit" },
+        { "name": "J.K. Dobbins", "recommendation": "Sit" },
+        { "name": "Alvin Kamara", "recommendation": "(Sit)" },
+        { "name": "Tyler Allgeier", "recommendation": "(Sit)" },
+        { "name": "RJ Harvey", "recommendation": "(Sit)" }
+    ],
+    "wr": [
+        { "name": "Mike Evans", "recommendation": "Start of the Week" },
+        { "name": "Parker Washington", "recommendation": "Start" },
+        { "name": "Matthew Golden", "recommendation": "Start" },
+        { "name": "Michael Wilson", "recommendation": "Start" },
+        { "name": "Denzel Boston", "recommendation": "Start" },
+        { "name": "George Pickens", "recommendation": "(Start)" },
+        { "name": "Jalen Coker", "recommendation": "(Start)" },
+        { "name": "Luther Burden III", "recommendation": "(Start)" },
+        { "name": "Devaughn Vele", "recommendation": "Stream" },
+        { "name": "Dontayvion Wicks", "recommendation": "Stream" },
+        { "name": "Xavier Worthy", "recommendation": "Stream" },
+        { "name": "Emeka Egbuka", "recommendation": "Sit of the Week" },
+        { "name": "Jaylen Waddle", "recommendation": "Sit" },
+        { "name": "DK Metcalf", "recommendation": "Sit" },
+        { "name": "Terry McLaurin", "recommendation": "Sit" },
+        { "name": "Carnell Tate", "recommendation": "Sit" },
+        { "name": "Ladd McConkey", "recommendation": "(Sit)" },
+        { "name": "Romeo Doubs", "recommendation": "(Sit)" },
+        { "name": "Brian Thomas Jr.", "recommendation": "(Sit)" }
+    ],
+    "te": [
+        { "name": "Isaiah Likely", "recommendation": "Start of the Week" },
+        { "name": "Tucker Kraft", "recommendation": "Start" },
+        { "name": "Dallas Goedert", "recommendation": "Start" },
+        { "name": "Dalton Kincaid", "recommendation": "Start" },
+        { "name": "Travis Kelce", "recommendation": "(Start)" },
+        { "name": "Juwan Johnson", "recommendation": "(Start)" },
+        { "name": "Colston Loveland", "recommendation": "(Start)" },
+        { "name": "Tyler Higbee", "recommendation": "Stream" },
+        { "name": "Pat Freiermuth", "recommendation": "Stream" },
+        { "name": "Darren Waller", "recommendation": "Stream" },
+        { "name": "Kyle Pitts Sr.", "recommendation": "Sit of the Week" },
+        { "name": "Jake Ferguson", "recommendation": "Sit" },
+        { "name": "Hunter Henry", "recommendation": "Sit" },
+        { "name": "Dalton Schultz", "recommendation": "Sit" },
+        { "name": "Chig Okonkwo", "recommendation": "(Sit)" },
+        { "name": "Evan Engram", "recommendation": "(Sit)" },
+        { "name": "Cade Otton", "recommendation": "(Sit)" }
+    ],
+    "dst": [
+        { "name": "Chiefs", "recommendation": "Start of the Week" },
+        { "name": "Patriots", "recommendation": "Start" },
+        { "name": "Steelers", "recommendation": "Start" },
+        { "name": "Rams", "recommendation": "(Start)" },
+        { "name": "Ravens", "recommendation": "(Start)" },
+        { "name": "49ers", "recommendation": "(Start)" },
+        { "name": "Bears", "recommendation": "Stream" },
+        { "name": "Giants", "recommendation": "Stream" },
+        { "name": "Colts", "recommendation": "Stream" },
+        { "name": "Packers", "recommendation": "Sit of the Week" },
+        { "name": "Texans", "recommendation": "Sit" },
+        { "name": "Eagles", "recommendation": "Sit" },
+        { "name": "Broncos", "recommendation": "(Sit)" },
+        { "name": "Chargers", "recommendation": "(Sit)" },
+        { "name": "Jets", "recommendation": "(Sit)" }
+    ],
+    "k": [
+        { "name": "Spencer Shrader", "recommendation": "Start of the Week" },
+        { "name": "Tyler Loop", "recommendation": "Start" },
+        { "name": "Cam Little", "recommendation": "Start" },
+        { "name": "Jason Myers", "recommendation": "(Start)" },
+        { "name": "Harrison Butker", "recommendation": "(Start)" },
+        { "name": "Eddy Pineiro", "recommendation": "(Start)" },
+        { "name": "Chris Boswell", "recommendation": "Stream" },
+        { "name": "Dominic Zvada", "recommendation": "Stream" },
+        { "name": "Andre Szmyt", "recommendation": "Stream" },
+        { "name": "Cameron Dicker", "recommendation": "Sit of the Week" },
+        { "name": "Tyler Bass", "recommendation": "Sit" },
+        { "name": "Jake Elliott", "recommendation": "Sit" },
+        { "name": "Daniel Carlson", "recommendation": "(Sit)" },
+        { "name": "Nick Folk", "recommendation": "(Sit)" },
+        { "name": "Andy Borregales", "recommendation": "(Sit)" }
+    ]
+}

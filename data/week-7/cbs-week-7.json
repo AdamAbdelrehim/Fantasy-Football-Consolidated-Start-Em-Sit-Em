@@ -1,0 +1,83 @@
+{
+    "links": [
+        { "position": "QB", "link": "https://www.cbssports.com/fantasy/football/news/fantasy-football-2026-week-7-start-em-sit-em/" },
+        { "position": "RB", "link": "https://www.cbssports.com/fantasy/football/news/fantasy-football-2026-week-7-start-em-sit-em/" },
+        { "position": "WR", "link": "https://www.cbssports.com/fantasy/football/news/fantasy-football-2026-week-7-start-em-sit-em/" },
+        { "position": "TE", "link": "https://www.cbssports.com/fantasy/football/news/fantasy-football-2026-week-7-start-em-sit-em/" },
+        { "position": "DST", "link": "https://www.cbssports.com/fantasy/football/news/fantasy-football-2026-week-7-start-em-sit-em/" },
+        { "position": "K", "link": "https://www.cbssports.com/fantasy/football/news/fantasy-football-2026-week-7-start-em-sit-em/" }
+    ],
+    "qb": [
+        { "name": "Jordan Love", "opponent": "@DET", "recommendation": "Start" },
+        { "name": "Jared Goff", "opponent": "GB", "recommendation": "Start" },
+        { "name": "C.J. Stroud", "opponent": "NYG", "recommendation": "Start" },
+        { "name": "Bryce Young", "opponent": "TB", "recommendation": "Start" },
+        { "name": "Dak Prescott", "opponent": "@PHI", "recommendation": "Start" },
+        { "name": "Kyler Murray", "opponent": "IND", "recommendation": "Sleeper" },
+        { "name": "Aaron Rodgers", "opponent": "@NO", "recommendation": "Sleeper" },
+        { "name": "Kirk Cousins", "opponent": "LAR", "recommendation": "Sleeper" },
+        { "name": "Patrick Mahomes", "opponent": "@SEA", "recommendation": "Sit" },
+        { "name": "Jacoby Brissett", "opponent": "DEN", "recommendation": "Sit" },
+        { "name": "Sam Darnold", "opponent": "KC", "recommendation": "Sit" },
+        { "name": "Tyler Shough", "opponent": "PIT", "recommendation": "Bust Alert" }
+    ],
+    "rb": [
+        { "name": "Braelon Allen", "opponent": "MIA", "recommendation": "Start of the Week" },
+        { "name": "Ollie Gordon II", "opponent": "@NYJ", "recommendation": "Start" },
+        { "name": "Woody Marks", "opponent": "NYG", "recommendation": "Start" },
+        { "name": "Aaron Jones Sr.", "opponent": "IND", "recommendation": "Start" },
+        { "name": "J.K. Dobbins", "opponent": "@ARI", "recommendation": "Start" },
+        { "name": "Zach Charbonnet", "opponent": "KC", "recommendation": "Sleeper" },
+        { "name": "Tyrone Tracy Jr.", "opponent": "@HOU", "recommendation": "Sleeper" },
+        { "name": "Mike Washington Jr.", "opponent": "LAR", "recommendation": "Sleeper" },
+        { "name": "Cam Skattebo", "opponent": "@HOU", "recommendation": "Sit" },
+        { "name": "Tony Pollard", "opponent": "CLE", "recommendation": "Sit" },
+        { "name": "Alvin Kamara", "opponent": "PIT", "recommendation": "Sit" },
+        { "name": "Tyler Allgeier", "opponent": "DEN", "recommendation": "Sit" },
+        { "name": "Emanuel Wilson", "opponent": "KC", "recommendation": "Bust Alert" }
+    ],
+    "wr": [
+        { "name": "Luther Burden III", "opponent": "NE", "recommendation": "Start" },
+        { "name": "DK Metcalf", "opponent": "@NO", "recommendation": "Start" },
+        { "name": "Germie Bernard", "opponent": "@NO", "recommendation": "Start" },
+        { "name": "Carnell Tate", "opponent": "CLE", "recommendation": "Start" },
+        { "name": "Jameson Williams", "opponent": "GB", "recommendation": "Start" },
+        { "name": "Emeka Egbuka", "opponent": "@CAR", "recommendation": "Start" },
+        { "name": "Denzel Boston", "opponent": "@TEN", "recommendation": "Sleeper" },
+        { "name": "Demario Douglas", "opponent": "@CHI", "recommendation": "Sleeper" },
+        { "name": "Omar Cooper Jr.", "opponent": "MIA", "recommendation": "Sleeper" },
+        { "name": "Malik Washington", "opponent": "@NYJ", "recommendation": "Sleeper" },
+        { "name": "Christian Kirk", "opponent": "@ATL", "recommendation": "Sleeper" },
+        { "name": "Michael Wilson", "opponent": "DEN", "recommendation": "Sit" },
+        { "name": "Rome Odunze", "opponent": "NE", "recommendation": "Sit" },
+        { "name": "Devaughn Vele", "opponent": "PIT", "recommendation": "Sit" },
+        { "name": "Josh Downs", "opponent": "@MIN", "recommendation": "Sit" },
+        { "name": "Tre Tucker", "opponent": "LAR", "recommendation": "Bust Alert" }
+    ],
+    "te": [
+        { "name": "Tucker Kraft", "opponent": "@DET", "recommendation": "Start" },
+        { "name": "Kyle Pitts Sr.", "opponent": "SF", "recommendation": "Start" },
+        { "name": "Dallas Goedert", "opponent": "DAL", "recommendation": "Start" },
+        { "name": "Hunter Henry", "opponent": "@CHI", "recommendation": "Sleeper" },
+        { "name": "Pat Freiermuth", "opponent": "@NO", "recommendation": "Sleeper" },
+        { "name": "Tyler Higbee", "opponent": "@LV", "recommendation": "Sleeper" },
+        { "name": "Jake Ferguson", "opponent": "@PHI", "recommendation": "Sit" },
+        { "name": "Dalton Schultz", "opponent": "NYG", "recommendation": "Sit" },
+        { "name": "Mark Andrews", "opponent": "CIN", "recommendation": "Sit" },
+        { "name": "Michael Mayer", "opponent": "LAR", "recommendation": "Bust Alert" }
+    ],
+    "dst": [
+        { "name": "Browns", "opponent": "@TEN", "recommendation": "Start" },
+        { "name": "49ers", "opponent": "@ATL", "recommendation": "(Sleeper)" },
+        { "name": "Jets", "opponent": "MIA", "recommendation": "(Sleeper)" },
+        { "name": "Bengals", "opponent": "@BAL", "recommendation": "(Sleeper)" },
+        { "name": "Eagles", "opponent": "DAL", "recommendation": "Sit" }
+    ],
+    "k": [
+        { "name": "Will Reichard", "opponent": "IND", "recommendation": "Start" },
+        { "name": "Chris Boswell", "opponent": "@NO", "recommendation": "(Sleeper)" },
+        { "name": "Ryan Fitzgerald", "opponent": "TB", "recommendation": "(Sleeper)" },
+        { "name": "Matt Gay", "opponent": "LAR", "recommendation": "(Sleeper)" },
+        { "name": "Harrison Butker", "opponent": "@SEA", "recommendation": "Sit" }
+    ]
+}

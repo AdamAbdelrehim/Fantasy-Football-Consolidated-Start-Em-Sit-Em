@@ -27,7 +27,7 @@ let players = {};
 let siteLinks = {};
 let selectedPosition = "QB";
 let scoreAscending = false;
-let selectedWeek = 6;
+let selectedWeek = 7;
 
 const tableBody = document.getElementById("data-table");
 const scoreHeader = document.querySelector("th[data-column='score']");
@@ -102,6 +102,11 @@ async function loadAllData() {
                         };
                     }
 
+
+                    if (!players[name].opponent && player.opponent) {
+                        players[name].opponent = player.opponent;
+                    }
+
                     players[name][site] = player.recommendation;
                     players[name].totalScore += recommendationValues[player.recommendation] || 0;
                 }
@@ -148,6 +153,10 @@ function renderTable() {
         row.innerHTML = `
             <td class="player">
                 ${player.name}
+            </td>
+
+            <td class="opponent">
+                ${player.opponent ?? ""}
             </td>
 
             <td class="${getRecommendationClass(consensus)}">
@@ -391,11 +400,13 @@ function exportTableToCSV() {
             "",
             "",
             "",
+            "",
             ""
         ].join(","));
 
         csv.push([
             "Player",
+            "Opponent",
             "Consensus",
             "Score",
             "NFL",
@@ -415,6 +426,7 @@ function exportTableToCSV() {
 
             const rowData = [
                 player.name,
+                player.opponent ?? "",
                 consensus,
                 player.totalScore,
                 player.nfl ?? "",
@@ -487,7 +499,7 @@ function setupWeekMenu() {
 
             tableBody.innerHTML = `
                 <tr>
-                    <td colspan="7">
+                    <td colspan="8">
                         Loading Week ${selectedWeek}...
                     </td>
                 </tr>

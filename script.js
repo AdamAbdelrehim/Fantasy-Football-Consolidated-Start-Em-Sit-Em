@@ -27,7 +27,7 @@ let players = {};
 let siteLinks = {};
 let selectedPosition = "QB";
 let scoreAscending = false;
-let selectedWeek = 7;
+let selectedWeek = 8;
 
 const tableBody = document.getElementById("data-table");
 const scoreHeader = document.querySelector("th[data-column='score']");

@@ -1,0 +1,79 @@
+{
+    "links": [
+        { "position": "QB", "link": "https://www.cbssports.com/fantasy/football/news/fantasy-football-week-8-start-em-sit-em-trevor-lawrence-enters-electric-mode-in-juicy-matchup-vs-colts/" },
+        { "position": "RB", "link": "https://www.cbssports.com/fantasy/football/news/fantasy-football-week-8-start-em-sit-em-trevor-lawrence-enters-electric-mode-in-juicy-matchup-vs-colts/" },
+        { "position": "WR", "link": "https://www.cbssports.com/fantasy/football/news/fantasy-football-week-8-start-em-sit-em-trevor-lawrence-enters-electric-mode-in-juicy-matchup-vs-colts/" },
+        { "position": "TE", "link": "https://www.cbssports.com/fantasy/football/news/fantasy-football-week-8-start-em-sit-em-trevor-lawrence-enters-electric-mode-in-juicy-matchup-vs-colts/" },
+        { "position": "DST", "link": "https://www.cbssports.com/fantasy/football/news/fantasy-football-week-8-start-em-sit-em-trevor-lawrence-enters-electric-mode-in-juicy-matchup-vs-colts/" },
+        { "position": "K", "link": "https://www.cbssports.com/fantasy/football/news/fantasy-football-week-8-start-em-sit-em-trevor-lawrence-enters-electric-mode-in-juicy-matchup-vs-colts/" }
+    ],
+    "qb": [
+        { "name": "Trevor Lawrence", "opponent": "IND", "recommendation": "Start of the Week" },
+        { "name": "Jayden Daniels", "opponent": "PHI", "recommendation": "Start" },
+        { "name": "Jordan Love", "opponent": "CAR", "recommendation": "Start" },
+        { "name": "Matthew Stafford", "opponent": "LAC", "recommendation": "Start" },
+        { "name": "Kirk Cousins", "opponent": "@NYJ", "recommendation": "Start" },
+        { "name": "Jacoby Brissett", "opponent": "@DAL", "recommendation": "Sleeper" },
+        { "name": "Geno Smith", "opponent": "LV", "recommendation": "Sleeper" },
+        { "name": "Kyler Murray", "opponent": "@DET", "recommendation": "Sleeper" },
+        { "name": "Caleb Williams", "opponent": "@SEA", "recommendation": "Sit" },
+        { "name": "Patrick Mahomes", "opponent": "@DEN", "recommendation": "Sit" },
+        { "name": "Bo Nix", "opponent": "KC", "recommendation": "Sit" },
+        { "name": "Jared Goff", "opponent": "MIN", "recommendation": "Bust Alert" }
+    ],
+    "rb": [
+        { "name": "Rhamondre Stevenson", "opponent": "@MIA", "recommendation": "Start" },
+        { "name": "Bhayshul Tuten", "opponent": "IND", "recommendation": "Start" },
+        { "name": "Ollie Gordon II", "opponent": "NE", "recommendation": "Start" },
+        { "name": "Jordan Mason", "opponent": "@DET", "recommendation": "Start" },
+        { "name": "Rachaad White", "opponent": "PHI", "recommendation": "Sleeper" },
+        { "name": "Blake Corum", "opponent": "LAC", "recommendation": "Sleeper" },
+        { "name": "Jonah Coleman", "opponent": "KC", "recommendation": "Sleeper" },
+        { "name": "Omarion Hampton", "opponent": "@LAR", "recommendation": "Sit" },
+        { "name": "J.K. Dobbins", "opponent": "KC", "recommendation": "Sit" },
+        { "name": "Emanuel Wilson", "opponent": "CHI", "recommendation": "Sit" },
+        { "name": "Tony Pollard", "opponent": "@CIN", "recommendation": "Bust Alert" }
+    ],
+    "wr": [
+        { "name": "Parker Washington", "opponent": "IND", "recommendation": "Start" },
+        { "name": "Stefon Diggs", "opponent": "PHI", "recommendation": "Start" },
+        { "name": "DK Metcalf", "opponent": "CLE", "recommendation": "Start" },
+        { "name": "Michael Wilson", "opponent": "@DAL", "recommendation": "Start" },
+        { "name": "Tre Tucker", "opponent": "@NYJ", "recommendation": "Start" },
+        { "name": "Omar Cooper Jr.", "opponent": "LV", "recommendation": "Sleeper" },
+        { "name": "KC Concepcion", "opponent": "@PIT", "recommendation": "Sleeper" },
+        { "name": "Keenan Allen", "opponent": "@JAC", "recommendation": "Sleeper" },
+        { "name": "Makai Lemon", "opponent": "@WAS", "recommendation": "Sleeper" },
+        { "name": "Denzel Boston", "opponent": "@PIT", "recommendation": "Sit" },
+        { "name": "Rome Odunze", "opponent": "@SEA", "recommendation": "Sit" },
+        { "name": "Xavier Worthy", "opponent": "@DEN", "recommendation": "Sit" },
+        { "name": "Caleb Douglas", "opponent": "NE", "recommendation": "Sit" },
+        { "name": "Jameson Williams", "opponent": "MIN", "recommendation": "Bust Alert" }
+    ],
+    "te": [
+        { "name": "Kyle Pitts Sr.", "opponent": "@TB", "recommendation": "Start" },
+        { "name": "Hunter Henry", "opponent": "@MIA", "recommendation": "Start" },
+        { "name": "T.J. Hockenson", "opponent": "@DET", "recommendation": "Start" },
+        { "name": "Chig Okonkwo", "opponent": "PHI", "recommendation": "Sleeper" },
+        { "name": "Brenton Strange", "opponent": "IND", "recommendation": "Sleeper" },
+        { "name": "Michael Mayer", "opponent": "@NYJ", "recommendation": "Sleeper" },
+        { "name": "Tyler Higbee", "opponent": "LAC", "recommendation": "Sit" },
+        { "name": "Pat Freiermuth", "opponent": "CLE", "recommendation": "Sit" },
+        { "name": "Jake Ferguson", "opponent": "ARI", "recommendation": "Sit" },
+        { "name": "Harold Fannin Jr.", "opponent": "@PIT", "recommendation": "Bust Alert" }
+    ],
+    "dst": [
+        { "name": "Jaguars", "opponent": "IND", "recommendation": "Start" },
+        { "name": "Bengals", "opponent": "TEN", "recommendation": "(Sleeper)" },
+        { "name": "Chiefs", "opponent": "@DEN", "recommendation": "(Sleeper)" },
+        { "name": "Buccaneers", "opponent": "ATL", "recommendation": "(Sleeper)" },
+        { "name": "Ravens", "opponent": "@BUF", "recommendation": "Sit" }
+    ],
+    "k": [
+        { "name": "Cam Little", "opponent": "IND", "recommendation": "Start" },
+        { "name": "Chris Boswell", "opponent": "CLE", "recommendation": "(Sleeper)" },
+        { "name": "Chase McLaughlin", "opponent": "ATL", "recommendation": "(Sleeper)" },
+        { "name": "Matt Gay", "opponent": "@NYJ", "recommendation": "(Sleeper)" },
+        { "name": "Jake Bates", "opponent": "MIN", "recommendation": "Sit" }
+    ]
+}

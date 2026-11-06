@@ -1,0 +1,79 @@
+{
+    "links": [
+        { "position": "QB", "link": "https://www.nfl.com/news/nfl-fantasy-2026-start-em-sit-em-quarterbacks-for-week-9" },
+        { "position": "RB", "link": "https://www.nfl.com/news/nfl-fantasy-2026-start-em-sit-em-running-backs-for-week-9" },
+        { "position": "WR", "link": "https://www.nfl.com/news/nfl-fantasy-2026-start-em-sit-em-wide-receivers-for-week-9" },
+        { "position": "TE", "link": "https://www.nfl.com/news/nfl-fantasy-2026-start-em-sit-em-tight-ends-for-week-9" },
+        { "position": "DST", "link": "https://www.nfl.com/news/nfl-fantasy-2026-start-em-sit-em-defenses-for-week-9" },
+        { "position": "K", "link": "https://www.nfl.com/news/nfl-fantasy-2026-start-em-sit-em-kickers-in-week-9" }
+    ],
+    "qb": [
+        { "name": "Jared Goff", "opponent": "@MIA", "recommendation": "Start of the Week" },
+        { "name": "Trevor Lawrence", "opponent": "@BAL", "recommendation": "Start" },
+        { "name": "Matthew Stafford", "opponent": "@WAS", "recommendation": "Start" },
+        { "name": "Patrick Mahomes", "opponent": "NYJ", "recommendation": "Start" },
+        { "name": "Malik Willis", "opponent": "DET", "recommendation": "Start" },
+        { "name": "Bryce Young", "opponent": "DEN", "recommendation": "Sit of the Week" },
+        { "name": "C.J. Stroud", "opponent": "@LAC", "recommendation": "Sit" },
+        { "name": "Tyler Shough", "opponent": "CLE", "recommendation": "Sit" },
+        { "name": "Caleb Williams", "opponent": "TB", "recommendation": "Sit" }
+    ],
+    "rb": [
+        { "name": "Jonah Coleman", "opponent": "@CAR", "recommendation": "Start of the Week" },
+        { "name": "Ashton Jeanty", "opponent": "@SF", "recommendation": "Start" },
+        { "name": "Josh Jacobs", "opponent": "@NE", "recommendation": "Start" },
+        { "name": "Quinshon Judkins", "opponent": "@NO", "recommendation": "Start" },
+        { "name": "Rhamondre Stevenson", "opponent": "GB", "recommendation": "Start" },
+        { "name": "Derrick Henry", "opponent": "JAX", "recommendation": "Sit of the Week" },
+        { "name": "Omarion Hampton", "opponent": "HOU", "recommendation": "Sit" },
+        { "name": "Ollie Gordon II", "opponent": "DET", "recommendation": "Sit" },
+        { "name": "Jordan Mason", "opponent": "BUF", "recommendation": "Sit" }
+    ],
+    "wr": [
+        { "name": "Mike Evans", "opponent": "LV", "recommendation": "Start of the Week" },
+        { "name": "Rashee Rice", "opponent": "NYJ", "recommendation": "Start" },
+        { "name": "Keenan Allen", "opponent": "DAL", "recommendation": "Start" },
+        { "name": "Malik Washington", "opponent": "DET", "recommendation": "Start" },
+        { "name": "Jalen Coker", "opponent": "DEN", "recommendation": "Sit of the Week" },
+        { "name": "Jaylen Waddle", "opponent": "@CAR", "recommendation": "Sit" },
+        { "name": "Ladd McConkey", "opponent": "HOU", "recommendation": "Sit" },
+        { "name": "Xavier Worthy", "opponent": "NYJ", "recommendation": "Sit" }
+    ],
+    "te": [
+        { "name": "Harold Fannin Jr.", "opponent": "@NO", "recommendation": "Start of the Week" },
+        { "name": "Kyle Pitts Sr.", "opponent": "CIN", "recommendation": "Start" },
+        { "name": "T.J. Hockenson", "opponent": "BUF", "recommendation": "Start" },
+        { "name": "Greg Dulcich", "opponent": "DET", "recommendation": "Start" },
+        { "name": "Mark Andrews", "opponent": "JAX", "recommendation": "Sit of the Week" },
+        { "name": "Dalton Kincaid", "opponent": "@MIN", "recommendation": "Sit" },
+        { "name": "Dalton Schultz", "opponent": "@LAC", "recommendation": "Sit" }
+    ],
+    "dst": [
+        { "name": "Lions", "opponent": "@MIA", "recommendation": "Start of the Week" },
+        { "name": "Jaguars", "opponent": "@BAL", "recommendation": "Start" },
+        { "name": "Bears", "opponent": "TB", "recommendation": "Start" },
+        { "name": "Vikings", "opponent": "BUF", "recommendation": "Start" },
+        { "name": "Ravens", "opponent": "JAX", "recommendation": "Sit of the Week" },
+        { "name": "Patriots", "opponent": "GB", "recommendation": "Sit" },
+        { "name": "49ers", "opponent": "LV", "recommendation": "Sit" },
+        { "name": "Eagles", "opponent": "NYG", "recommendation": "Sit" }
+    ],
+    "k": [
+        { "name": "Will Reichard", "opponent": "BUF", "recommendation": "(Start)" },
+        { "name": "Spencer Shrader", "opponent": "DAL", "recommendation": "(Start)" },
+        { "name": "Chase McLaughlin", "opponent": "@CHI", "recommendation": "(Start)" },
+        { "name": "Ka'imi Fairbairn", "opponent": "@LAC", "recommendation": "(Start)" },
+        { "name": "Tyler Bass", "opponent": "@MIN", "recommendation": "(Start)" },
+        { "name": "Matt Gay", "opponent": "@SF", "recommendation": "(Start)" },
+        { "name": "Chad Ryland", "opponent": "@SEA", "recommendation": "(Start)" },
+        { "name": "Cam Little", "opponent": "@BAL", "recommendation": "(Start)" },
+        { "name": "Jake Bates", "opponent": "@MIA", "recommendation": "(Start)" },
+        { "name": "Zane Gonzalez", "opponent": "DET", "recommendation": "(Sit)" },
+        { "name": "Brandon McManus", "opponent": "@WAS", "recommendation": "(Sit)" },
+        { "name": "Eddy Pineiro", "opponent": "LV", "recommendation": "(Sit)" },
+        { "name": "Jake Elliott", "opponent": "NYG", "recommendation": "(Sit)" },
+        { "name": "Harrison Butker", "opponent": "NYJ", "recommendation": "(Sit)" },
+        { "name": "Dominic Zvada", "opponent": "@PHI", "recommendation": "(Sit)" },
+        { "name": "Jake Moody", "opponent": "JAX", "recommendation": "(Sit)" }
+    ]
+}
